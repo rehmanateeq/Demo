@@ -28,7 +28,6 @@
 		BD77671D2699F0E1006B090F /* MediaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD77671C2699F0E1006B090F /* MediaCell.xib */; };
 		BDC6C0ED2699F4A200F15AE3 /* MediaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6C0EC2699F4A200F15AE3 /* MediaCell.swift */; };
 		BDD096CD269A457A00F7D9A5 /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD096CC269A457A00F7D9A5 /* NetworkHandler.swift */; };
-		BDD096CF269A483000F7D9A5 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD096CE269A483000F7D9A5 /* ApiResponse.swift */; };
 		BDE13632269B16BD005E26F8 /* MediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE13631269B16BD005E26F8 /* MediaModel.swift */; };
 		ED185F6DAF4E6B2422A6A961 /* Pods_DemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63199AFB79B53810F7214F49 /* Pods_DemoApp.framework */; };
 /* End PBXBuildFile section */
@@ -60,7 +59,6 @@
 		BD77671C2699F0E1006B090F /* MediaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MediaCell.xib; sourceTree = "<group>"; };
 		BDC6C0EC2699F4A200F15AE3 /* MediaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaCell.swift; sourceTree = "<group>"; };
 		BDD096CC269A457A00F7D9A5 /* NetworkHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
-		BDD096CE269A483000F7D9A5 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
 		BDE13631269B16BD005E26F8 /* MediaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,7 +162,6 @@
 			isa = PBXGroup;
 			children = (
 				BDD096CC269A457A00F7D9A5 /* NetworkHandler.swift */,
-				BDD096CE269A483000F7D9A5 /* ApiResponse.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -368,7 +365,6 @@
 				BD7767172699E5C5006B090F /* SeasconCollectionCell.swift in Sources */,
 				BD7766E72699A7A0006B090F /* MediaDetailsVC.swift in Sources */,
 				BD7767062699B265006B090F /* MediaHeaderCell.swift in Sources */,
-				BDD096CF269A483000F7D9A5 /* ApiResponse.swift in Sources */,
 				BD7766E32699A7A0006B090F /* AppDelegate.swift in Sources */,
 				BD7767192699E6A4006B090F /* SeasonSelectionCell.swift in Sources */,
 				BDC6C0ED2699F4A200F15AE3 /* MediaCell.swift in Sources */,

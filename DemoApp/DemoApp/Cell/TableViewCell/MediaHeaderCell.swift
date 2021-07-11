@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class MediaHeaderCell: UITableViewCell {
 
@@ -26,6 +27,9 @@ class MediaHeaderCell: UITableViewCell {
             }
             
             lblSeason.text = "\(model?.seasonNumber ?? 0) Seasons"
+                        
+            showImage.sd_setImage(with: URL(string: "https://i.picsum.photos/id/1019/5472/3648.jpg?hmac=2mFzeV1mPbDvR0WmuOWSiW61mf9DDEVPDL0RVvg1HPs"), placeholderImage: UIImage(named: "fifa20Full"))
+
             
         }
     }
